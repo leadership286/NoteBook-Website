@@ -1,0 +1,108 @@
+.navbar {
+    display: flex;
+    gap: 240px;
+    padding: 30px;
+    background-color: #10ced4;
+  justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #0e0303;
+    font-weight:bolder;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #2d00f3; /* Add a hover effect */
+}
+/* Container Styles */
+.container {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255, 120, 226);
+}
+.text-center{
+  font-size:60px;
+}
+/* Title Style */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  gap: 20px; /* Space between grid items */
+  margin-top: 20px;
+}
+
+/* Grid Item */
+.grid-item {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+}
+
+/* Optional: Style for images */
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for images */
+  border: 4px;
+}
+.grid-item img:hover {
+  transform: scale(1.1); /* Zoom in the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  border-color: blue; /* Blue border on hover */
+}
+
+.about {
+    background:#cfc778;
+    text-align: center;
+    font-size: 100px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 70vh; /* Full viewport height */
+}
+p{
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+.parent-contain{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  
+}
+.container-1{
+  background: #c42d80;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 83px;
+  
+}
+.para {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+ 
+}
+
+  
